@@ -1,8 +1,0 @@
-{
-  "id": "happyfiltercaptcha",
-  "name": "HappyFilterVelocity",
-  "version": "1.0.0",
-  "description": "Force captcha server first, allow lobby only via captcha.",
-  "authors": ["HappyFilter"],
-  "main": "ru.happyfilter.velocity.HappyFilterVelocity"
-}
