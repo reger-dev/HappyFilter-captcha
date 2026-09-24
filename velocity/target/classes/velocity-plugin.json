@@ -1,0 +1,1 @@
+{"id":"happyfiltercaptcha","name":"HappyFilterVelocity","version":"1.0.0","description":"Force captcha first, lobby only via captcha.","authors":["HappyFilter"],"dependencies":[],"main":"ru.happyfilter.velocity.HappyFilterVelocity"}

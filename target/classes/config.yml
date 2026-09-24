@@ -1,0 +1,115 @@
+# =====================================================
+# HappyFilterCaptcha - config.yml
+# Ядро: Spigot / Paper / Purpur, ТОЛЬКО Bukkit API, 1.14-1.21.x
+# Все координаты должны совпадать с миром World из plugins/HappyFilterCaptcha/World
+# В вашем приложенном мире (просканирован фактически):
+#   платформа stone y=173, x 167..179, z -187..-176
+#   сундук  175,174,-181 (на камне)
+#   воронка 173,173,-181 (в уровне пола, над ней воздух 173,174,-181)
+#   шалкер  171,174,-181 (на камне, тип minecraft:shulker_box)
+#   спавн level.dat 173,174,-186
+# =====================================================
+
+captcha:
+  # Имя мира капчи. Если такой мир уже загружен - используется он.
+  # Иначе копируется plugins/HappyFilterCaptcha/World -> ./<world> и загружается.
+  # Существующий мир сервера НЕ перезаписывается.
+  world: captcha
+
+  # Точка спавна игрока в мире капчи (куда телепортирует при старте)
+  # Совпадает с вашим World: платформа, рядом level.dat спавн 173,174,-186
+  spawn:
+    x: 173.5
+    y: 174.0
+    z: -185.5
+    yaw: 0.0
+    pitch: 0.0
+
+  # Координаты блоков (должны совпадать с World)
+  chest:
+    x: 175
+    y: 174
+    z: -181
+  hopper:
+    x: 173
+    y: 173
+    z: -181
+  shulker:
+    x: 171
+    y: 174
+    z: -181
+
+  # Границы платформы. Выход за них = OUT_OF_BOUNDS
+  bounds:
+    min:
+      x: 167
+      y: 173
+      z: -187
+    max:
+      x: 179
+      y: 177
+      z: -176
+
+  # Материалы
+  pickaxe-material: DIAMOND_PICKAXE
+  shulker-material: SHULKER_BOX
+
+  # Таймаут капчи в секундах
+  timeout-seconds: 30
+
+  # Пулы генерации (не убирать еду/мусор полностью - оба присутствуют ВСЕГДА)
+  food-pool:
+    - BREAD
+    - CARROT
+    - POTATO
+    - BAKED_POTATO
+    - APPLE
+    - COOKED_CHICKEN
+    - COOKIE
+    - MELON_SLICE
+  trash-pool:
+    - DIRT
+    - COBBLESTONE
+    - STICK
+    - BONE
+    - STRING
+    - PAPER
+    - LEATHER
+    - ARROW
+
+  # Сколько видов еды (3) и сколько штук каждого (1-4), мусора 8-12
+  food-types: 3
+  food-min-amount: 1
+  food-max-amount: 4
+  trash-min: 8
+  trash-max: 12
+
+# Режим после успеха:
+#   LOCAL - телепорт на точку ниже (дальше AuthMe)
+#   PROXY - отправить на сервер через BungeeCord канал (Connect)
+mode: PROXY
+
+local-spawn:
+  world: world
+  x: 0.5
+  y: 100.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+
+proxy:
+  # Имя сервера в BungeeCord / Velocity (lobby, survival, auth...)
+  server: lobby
+
+# Действие для каждой ошибки. По умолчанию KICK.
+# Поддерживается: KICK (кик). Любое другое значение = только сообщение без кика
+# (оставлено для совместимости, по ТЗ попыток 1 и любая ошибка = кик).
+actions:
+  NOT_ALL_FOOD: KICK
+  EXTRA_ITEM: KICK
+  NO_PICKAXE: KICK
+  WRONG_DROP: KICK
+  WRONG_HOPPER_ITEM: KICK
+  WRONG_INVENTORY: KICK
+  OUT_OF_BOUNDS: KICK
+  TIMEOUT: KICK
