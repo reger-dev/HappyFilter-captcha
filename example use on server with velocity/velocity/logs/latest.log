@@ -1,0 +1,22 @@
+[18:36:46] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.3.0-SNAPSHOT (git-2016d148-b436)...
+[18:36:46] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[18:36:46] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
+[18:36:46] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[18:36:46] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[18:36:46] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
+[18:36:46] [Netty NIO Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25564
+[18:36:46] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (0,62s)!
+[18:36:59] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] reger0363 (/127.0.0.1:44890) has connected
+[18:36:59] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] reger0363 -> captcha has connected
+[18:37:14] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] reger0363 -> lobby has connected
+[18:37:15] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] reger0363 -> captcha has disconnected
+[18:37:20] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] reger0363 (/127.0.0.1:44890) has disconnected
+[18:37:20] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] reger0363 -> lobby has disconnected
+[18:37:27] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] reger0363 (/127.0.0.1:45062) has connected
+[18:37:27] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] reger0363 -> captcha has connected
+[18:37:44] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] reger0363 -> lobby has connected
+[18:37:44] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] reger0363 -> captcha has disconnected
+[18:37:50] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] reger0363 -> captcha has connected
+[18:37:50] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] reger0363 -> lobby has disconnected
+[18:38:00] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] reger0363 -> lobby has connected
+[18:38:00] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] reger0363 -> captcha has disconnected

@@ -1,0 +1,51 @@
+[18:36:28] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:36:29] [ServerMain/INFO]: Loaded 7 recipes
+[18:36:30] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[18:36:30] [Server thread/INFO]: Loading properties
+[18:36:30] [Server thread/INFO]: This server is running Purpur version git-Purpur-2060 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: fbedef8 on HEAD)
+[18:36:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:36:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:36:30] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[18:36:31] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
+[18:36:31] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
+[18:36:31] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
+[18:36:31] [Server thread/WARN]: [Pufferfish] Debug: Java: 17.0.18, test run: true
+[18:36:31] [Server thread/INFO]: Default game type: SURVIVAL
+[18:36:31] [Server thread/INFO]: Generating keypair
+[18:36:31] [Server thread/INFO]: Starting Minecraft server on *:25566
+[18:36:31] [Server thread/INFO]: Using default channel type
+[18:36:31] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[18:36:31] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:36:31] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.187
+[18:36:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:36:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:36:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:36:31] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[18:36:31] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[18:36:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:36:31] [Server thread/INFO]: Preparing level "world"
+[18:36:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:36:32] [Server thread/INFO]: Time elapsed: 207 ms
+[18:36:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:36:32] [Server thread/INFO]: Time elapsed: 21 ms
+[18:36:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:36:32] [Server thread/INFO]: Time elapsed: 25 ms
+[18:36:32] [Server thread/INFO]: [spark] Enabling spark v1.10.187
+[18:36:33] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[18:36:33] [Server thread/INFO]: [spark] Starting background profiler...
+[18:36:33] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[18:36:33] [Server thread/INFO]: Running delayed init tasks
+[18:36:33] [Server thread/INFO]: Done (3.407s)! For help, type "help"
+[18:37:14] [User Authenticator #0/INFO]: UUID of player reger0363 is 1c787f22-c6c8-39d1-84fa-13f35daa0d6f
+[18:37:15] [Server thread/INFO]: reger0363 joined the game
+[18:37:15] [Server thread/INFO]: reger0363[/127.0.0.1:44936] logged in with entity id 349 at ([world]1.2693860526244958, 104.0, 6.699999988079071)
+[18:37:20] [Server thread/INFO]: reger0363 lost connection: Disconnected
+[18:37:21] [Server thread/INFO]: reger0363 left the game
+[18:37:44] [User Authenticator #0/INFO]: UUID of player reger0363 is 1c787f22-c6c8-39d1-84fa-13f35daa0d6f
+[18:37:44] [Server thread/INFO]: reger0363 joined the game
+[18:37:44] [Server thread/INFO]: reger0363[/127.0.0.1:45116] logged in with entity id 394 at ([world]1.936255687368848, 105.0, 6.593263271739472)
+[18:37:50] [Server thread/INFO]: reger0363 lost connection: Disconnected
+[18:37:50] [Server thread/INFO]: reger0363 left the game
+[18:38:00] [User Authenticator #0/INFO]: UUID of player reger0363 is 1c787f22-c6c8-39d1-84fa-13f35daa0d6f
+[18:38:00] [Server thread/INFO]: reger0363 joined the game
+[18:38:00] [Server thread/INFO]: reger0363[/127.0.0.1:45171] logged in with entity id 440 at ([world]5.3815848856600255, 97.0, 7.353859286710425)

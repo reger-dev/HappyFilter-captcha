@@ -1,0 +1,74 @@
+captcha:
+  world: captcha
+  spawn:
+    x: 173.5
+    y: 174.0
+    z: -185.5
+    yaw: 0.0
+    pitch: 0.0
+  chest:
+    x: 175
+    y: 174
+    z: -181
+  hopper:
+    x: 173
+    y: 173
+    z: -181
+  shulker:
+    x: 171
+    y: 174
+    z: -181
+  bounds:
+    min:
+      x: 167
+      y: 173
+      z: -187
+    max:
+      x: 179
+      y: 177
+      z: -176
+  pickaxe-material: DIAMOND_PICKAXE
+  shulker-material: SHULKER_BOX
+  timeout-seconds: 30
+  food-pool:
+    - BREAD
+    - CARROT
+    - POTATO
+    - BAKED_POTATO
+    - APPLE
+    - COOKED_CHICKEN
+    - COOKIE
+    - MELON_SLICE
+  trash-pool:
+    - DIRT
+    - COBBLESTONE
+    - STICK
+    - BONE
+    - STRING
+    - PAPER
+    - LEATHER
+    - ARROW
+  food-types: 3
+  food-min-amount: 1
+  food-max-amount: 4
+  trash-min: 8
+  trash-max: 12
+mode: PROXY
+local-spawn:
+  world: world
+  x: 0.5
+  y: 100.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+proxy:
+  server: lobby
+actions:
+  NOT_ALL_FOOD: KICK
+  EXTRA_ITEM: KICK
+  NO_PICKAXE: KICK
+  WRONG_DROP: KICK
+  WRONG_HOPPER_ITEM: KICK
+  WRONG_INVENTORY: KICK
+  OUT_OF_BOUNDS: KICK
+  TIMEOUT: KICK
